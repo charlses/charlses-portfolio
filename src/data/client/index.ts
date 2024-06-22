@@ -74,15 +74,15 @@ export const projects = [
     id: 1,
     title: 'Fun blog api created for beginners',
     des: "An api that is all you need to create a fully functional blog, free to use for everyone and beginner friendly with it's documentation",
-    img: '/p1.png',
+    img: '/p2.png',
     iconLists: ['/next.svg', '/ts.svg', '/git.svg', '/mongo.svg', '/tail.svg'],
     link: 'https://davits-api.vercel.app'
   },
   {
     id: 2,
     title: 'A full stack application with kanban boards',
-    des: 'Siple and fun that I built, allows users to plan-out and manage their projects and tasks',
-    img: '/p2.png',
+    des: 'Simple and fun application that I built,that allows users to plan-out and manage their projects and tasks',
+    img: '/p1.png',
     iconLists: [
       '/next.svg',
       '/tail.svg',

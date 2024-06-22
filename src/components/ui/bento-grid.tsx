@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { BackgroundGradientAnimation } from './background-gradient-animation'
 import { GridGlobe } from './GridGlobe'
 
-import animationData from '@/data/client/confetti.json'
+// import animationData from '@/data/client/confetti.json'
 import BorderMagicBtn from './BorderMagicBtn'
 
 export const BentoGrid = ({
@@ -55,14 +55,14 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false)
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  }
+  // const defaultOptions = {
+  //   loop: copied,
+  //   autoplay: copied,
+  //   animationData: animationData,
+  //   rendererSettings: {
+  //     preserveAspectRatio: 'xMidYMid slice'
+  //   }
+  // }
 
   const handleCopy = () => {
     const text = 'davit.tavadzee@gmail.com'
@@ -149,10 +149,10 @@ export const BentoGridItem = ({
                     </span>
                   )
                 })}
-                <span className='py-7 px-3 rounded-lg text-center bg-[#10132e]' />
+                <span className='lg:py-7 py-4 px-3 rounded-lg text-center bg-[#10132e]' />
               </div>
               <div className='flex flex-col gap-3'>
-                <span className='py-7 px-3 rounded-lg text-center bg-[#10132e]' />
+                <span className='lg:py-7 py-4 px-3 rounded-lg text-center bg-[#10132e]' />
 
                 {rightLists.map((item) => {
                   return (

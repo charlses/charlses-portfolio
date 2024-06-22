@@ -6,8 +6,8 @@ import Image from 'next/image'
 
 const RecentProjects = () => {
   return (
-    <div className='py-20'>
-      <h2 className='lg:text-3xl md:text-2xl text-xl text-center uppercase font-bold'>
+    <div className='py-20' id='projects'>
+      <h2 className='heading'>
         A small selection of my{' '}
         <span className='text-purple'>recent projects</span>
       </h2>
@@ -20,12 +20,12 @@ const RecentProjects = () => {
             >
               <PinContainer title={title} href={link}>
                 <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh]  h-[30vh]  mb-10'>
-                  <div
+                  {/* <div
                     className='relative w-full h-full overflow-hidden rounded-lg'
                     style={{ backgroundColor: '#13162D' }}
                   >
                     <Image src='/bg.png' alt='bgimg' height={100} width={100} />
-                  </div>
+                  </div> */}
                   <img
                     src={img}
                     alt='cover'
@@ -55,7 +55,7 @@ const RecentProjects = () => {
                       iconLists.map((icon, index) => (
                         <div
                           key={index}
-                          className='border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center'
+                          className='border border-white/[.2] rounded-full bg-black  lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center'
                           style={{
                             transform: `translateX(-${5 * index + 2}px)`
                           }}
