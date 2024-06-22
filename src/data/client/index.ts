@@ -72,36 +72,43 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-    img: '/p1.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: 'https://github.com/adrianhajdin?tab=repositories'
+    title: 'Fun blog api created for beginners',
+    des: "An api that is all you need to create a fully functional blog, free to use for everyone and beginner friendly with it's documentation",
+    img: '/p1.png',
+    iconLists: ['/next.svg', '/ts.svg', '/git.svg', '/mongo.svg', '/tail.svg'],
+    link: 'https://davits-api.vercel.app'
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-    img: '/p2.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/zoom-clone'
-  },
-  {
-    id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/p3.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/ai_saas_app'
-  },
-  {
-    id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-    img: '/p4.svg',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/adrianhajdin/iphone'
+    title: 'A full stack application with kanban boards',
+    des: 'Siple and fun that I built, allows users to plan-out and manage their projects and tasks',
+    img: '/p2.png',
+    iconLists: [
+      '/next.svg',
+      '/tail.svg',
+      '/ts.svg',
+      '/mongo.svg',
+      '/authjs.png',
+      '/git.svg'
+    ],
+    link: 'https://charlses.com/'
   }
+  // {
+  //   id: 3,
+  //   title: 'AI Image SaaS - Canva Application',
+  //   des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
+  //   img: '/p3.svg',
+  //   iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
+  //   link: 'https://github.com/adrianhajdin/ai_saas_app'
+  // },
+  // {
+  //   id: 4,
+  //   title: 'Animated Apple Iphone 3D Website',
+  //   des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
+  //   img: '/p4.svg',
+  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
+  //   link: 'https://github.com/adrianhajdin/iphone'
+  // }
 ]
 
 export const testimonials = [

@@ -7,8 +7,8 @@ import Image from 'next/image'
 const RecentProjects = () => {
   return (
     <div className='py-20'>
-      <h2 className='heading'>
-        A small selection of{' '}
+      <h2 className='lg:text-3xl md:text-2xl text-xl text-center uppercase font-bold'>
+        A small selection of my{' '}
         <span className='text-purple'>recent projects</span>
       </h2>
       <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
@@ -21,15 +21,15 @@ const RecentProjects = () => {
               <PinContainer title={title} href={link}>
                 <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh]  h-[30vh]  mb-10'>
                   <div
-                    className='relative w-full h-full overflow-hidden lg:rounded-xl'
+                    className='relative w-full h-full overflow-hidden rounded-lg'
                     style={{ backgroundColor: '#13162D' }}
                   >
-                    <Image src='/bg.png' alt='bgimg' height={200} width={200} />
+                    <Image src='/bg.png' alt='bgimg' height={100} width={100} />
                   </div>
                   <img
                     src={img}
                     alt='cover'
-                    className='z-10 absolute bottom-0'
+                    className='z-10 absolute rounded-lg'
                     height={570}
                     width={570}
                   />
