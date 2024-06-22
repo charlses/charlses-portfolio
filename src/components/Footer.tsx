@@ -1,15 +1,13 @@
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaEnvelopeOpen } from 'react-icons/fa6'
 
 import { socialMedia } from '@/data/client'
 import MagicButton from './ui/BorderMagicBtn'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer
-      className='w-full pt-20 pb-10 bg-black-100 border border-t-2'
-      id='contact'
-    >
+    <footer className='w-full pt-20 pb-10 bg-black-100 border-t' id='contact'>
       {/* background grid */}
       <div className='w-full absolute left-0 -bottom-72 min-h-96'>
         <img
@@ -28,13 +26,13 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href='mailto:contact@jsmastery.pro'>
+        <Link href='mailto:davit.tavadzee@gmail.com'>
           <MagicButton
             title="Let's get in touch"
-            icon={<FaLocationArrow />}
+            icon={<FaEnvelopeOpen />}
             position='right'
           />
-        </a>
+        </Link>
       </div>
       <div className='flex mt-16 md:flex-row flex-col justify-between items-center mx-4 space-y-4 font-extralight'>
         <p className='md:text-base text-xs md:font-extralight font-extralight'>
