@@ -1,7 +1,7 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
-  { name: 'Testimonials', link: '#testimonials' },
+  { name: 'Experience', link: '#experience' },
   { name: 'Contact', link: '#contact' }
 ]
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
+    title: 'Currently building a Finance Application',
     description: 'The Inside Scoop',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -111,38 +111,38 @@ export const projects = [
   // }
 ]
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies'
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies'
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies'
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies'
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: 'Michael Johnson',
-    title: 'Director of AlphaStream Technologies'
-  }
-]
+// export const testimonials = [
+//   {
+//     quote:
+//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+//     name: 'Michael Johnson',
+//     title: 'Director of AlphaStream Technologies'
+//   },
+//   {
+//     quote:
+//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+//     name: 'Michael Johnson',
+//     title: 'Director of AlphaStream Technologies'
+//   },
+//   {
+//     quote:
+//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+//     name: 'Michael Johnson',
+//     title: 'Director of AlphaStream Technologies'
+//   },
+//   {
+//     quote:
+//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+//     name: 'Michael Johnson',
+//     title: 'Director of AlphaStream Technologies'
+//   },
+//   {
+//     quote:
+//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+//     name: 'Michael Johnson',
+//     title: 'Director of AlphaStream Technologies'
+//   }
+// ]
 
 export const companies = [
   {
@@ -180,29 +180,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: 'Frontend Engineer Intern',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+    title: 'Freelance Developer, Worldwide',
+    desc: "As a freelance developer, I specialize in crafting tailored solutions using Next.js and TailwindCSS. With expertise in building scalable back-end systems using Next.js and MongoDB, I deliver efficient solutions customized to clients' needs. Additionally, I integrate secure authentication features using Next-Auth (now Auth.js) for seamless user authentication and authorization.",
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg'
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Work Performance LLC, Stockholm/Sweden',
+    desc: 'Developed dynamic UIs with Next.js, TailwindCSS, and MUI, ensuring seamless UX and type-safe code with TypeScript. Built scalable back-end systems using Next.js and MongoDB. Implemented advanced authentication with Next-Auth, utilizing JWT and database sessions.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg'
   },
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Work Integration LLC, Stockholm/Sweden',
+    desc: 'As a consultant at Mobily Sverige LLC, stationed at Work Integration LLC, I focused on crafting user-centric interfaces using React, HTML, SaaS, Bootstrap, and JavaScript, prioritizing exceptional user experiences. In the back end, I navigated diverse projects, utilizing PHP, PHPMyAdmin, SQL, Node.js, and MongoDB, from simple authentication to comprehensive relational databases.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg'
   },
   {
     id: 4,
-    title: 'Lead Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+    title: 'StarCounter LLC',
+    desc: 'As a Software Engineering intern at StarCounter LLC from July 2016 to September 2018 in Stockholm, Sweden, I honed my coding and scripting skills alongside seasoned professionals. During this time, I gained proficiency in languages such as JavaScript, C#, and C++, deepening my understanding of programming fundamentals and its significance in our modern world.',
     className: 'md:col-span-2',
     thumbnail: '/exp4.svg'
   }
