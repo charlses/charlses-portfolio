@@ -1,6 +1,9 @@
+import Approach from '@/components/Approach'
+import Experience from '@/components/Experience'
 import Grid from '@/components/Grid'
 import Hero from '@/components/Hero'
 import RecentProjects from '@/components/RecentProjects'
+import { TracingBeam } from '@/components/ui/tracing-beam'
 
 export default function Home() {
   return (
@@ -8,7 +11,11 @@ export default function Home() {
       <div className='max-w-7xl w-full'>
         <Hero />
         <Grid />
-        <RecentProjects />
+        <TracingBeam>
+          <RecentProjects />
+          <Experience />
+          <Approach />
+        </TracingBeam>
       </div>
     </main>
   )

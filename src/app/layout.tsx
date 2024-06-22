@@ -5,6 +5,7 @@ import './globals.css'
 import { FloatingNav } from '@/components/ui/floating-navbar'
 import { navItems } from '@/data/client'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         >
           <FloatingNav navItems={navItems} />
           {children}
+          <Footer />
         </ThemeProvider>
         <SpeedInsights />
       </body>
