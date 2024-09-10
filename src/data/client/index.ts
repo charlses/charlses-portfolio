@@ -91,7 +91,7 @@ export const projects = [
       '/authjs.png',
       '/git.svg'
     ],
-    link: 'https://charlses-auth.vercel.com/'
+    link: 'https://charlses-auth.vercel.app/'
   }
   // {
   //   id: 3,
